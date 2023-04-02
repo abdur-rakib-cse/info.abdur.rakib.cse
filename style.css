@@ -1,13 +1,32 @@
 
-
-
-body{
-  font-family: 'Alegreya', serif;
-
+section{
+  display: flex;
 }
 h1{
   font-size: 50px;
+  font-family: 'Alegreya', serif;
 }
 .color-h1{
-  color:maroon;
+  color:orangered;
+}
+.first{
+  width: 50%;
+  padding-left: 20px;
+}
+.second{
+  width: 50%;
+}
+.second img{
+  width: 100%;
+  margin-top: 100px;
+}
+.link-button{
+  text-decoration: none;
+
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
+  background-image: linear-gradient(Pink, gray,red);
+
 }
