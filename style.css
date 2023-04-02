@@ -1,6 +1,7 @@
 
 section{
   display: flex;
+  margin: 0;
 }
 h1{
   font-size: 50px;
@@ -22,11 +23,18 @@ h1{
 }
 .link-button{
   text-decoration: none;
-
   padding: 15px 20px;
-  border-radius: 5px;
+  border-radius: 5px ;
   color: aliceblue;
   font-weight: 700;
   background-image: linear-gradient(Pink, gray,red);
+}
+.link-button{
+  margin-top: 500px;
+}
 
+.first-sec{
+  background-image: url(images/pngwing.com\ \(4\).png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
 }
