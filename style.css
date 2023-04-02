@@ -38,3 +38,19 @@ h1{
   background-repeat: no-repeat;
   margin: 0px auto;
 }
+.second-section{
+  display: flex;
+  margin-top: 100px;
+}
+.second1 img{
+  width: 100%;
+  
+}
+.second1{
+  width: 50%;
+}
+.second2{
+  width: 50%;
+  background-image: url(images/pngwing.com\ \(4\).png);
+  margin: 0;
+}
