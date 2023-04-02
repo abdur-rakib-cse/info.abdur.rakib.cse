@@ -1,9 +1,9 @@
 
-section{
+.first-sec{
   display: flex;
   margin: 0;
 }
-h1{
+.first h1{
   font-size: 50px;
   font-family: 'Alegreya', serif;
 }
@@ -52,5 +52,43 @@ h1{
 .second2{
   width: 50%;
   background-image: url(images/pngwing.com\ \(4\).png);
+  background-repeat: no-repeat;
   margin: 0;
+}
+.third-sec{
+  margin-top: 50px;
+ width:auto;
+
+}
+.main-third-div{
+margin: 50px;
+ float: left;
+ display: flex;
+ background-image: url(images/pngwing.com\ \(7\).png);
+ background-size:97%;
+ background-repeat: no-repeat;
+ background-position: left;
+}
+.third-one{
+  width: 50%;
+  float: left;
+  margin-right: 50px;
+  text-align: justify;
+  box-shadow: 10px 10px 40px  gray;
+  padding: 50px;
+  border-radius: 10px;
+  border-left: 10px solid skyblue;
+}
+.third-two{
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  text-align: justify;
+  box-shadow: 10px 10px 40px  gray;
+  padding: 50px;
+  border-radius: 10px;
+  border-left: 10px solid orangered;
+}
+footer p{
+  text-align: center;
 }
